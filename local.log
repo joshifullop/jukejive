@@ -1,0 +1,21 @@
+Hello World. Testing!Hello World. Testing!Hello World. Testing!Hello World. Testing!
+songid(raw): 101
+Hello World. Testing!
+songid(raw): 101
+Hello World. Testing!
+songid(raw): 101
+Hello World. Testing!
+songid(raw): 101
+SELECT filename FROM songs WHERE songid=101Hello World. Testing!
+songid(raw): 101
+SELECT filename FROM songs WHERE songid=101Hello World. Testing!
+songid(raw): 32
+SELECT filename FROM songs WHERE songid=101Hello World. Testing!
+songid(raw): 1
+SELECT filename FROM songs WHERE songid=101Hello World. Testing!
+songid(raw): 32
+SELECT filename FROM songs WHERE songid=101Hello World. Testing!
+songid(raw): 32
+SELECT filename FROM songs WHERE songid=32rows > 0Hello World. Testing!
+songid(raw): 101
+SELECT filename FROM songs WHERE songid=101

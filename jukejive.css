@@ -1,0 +1,84 @@
+    @font-face {
+	font-family:"kilogram";
+	src: url("kilogram.woff");
+    }    
+
+    body {
+        font: 14px Arial,sans-serif; 
+        margin: 0px;
+	color: 252627;
+    }
+    .header {
+        padding: 5px 20px;
+        background: #904e55; 
+	font-size: 18px;
+	color: #252627;
+    }
+    .header h1 {
+	font-size: 24px;
+    }
+    .container {
+        width: 100%;
+        background: #f2f2f2; 
+    }
+    .nav, .section {
+        float: left; 
+        padding: 20px;
+        min-height: 170px;
+        box-sizing: border-box;
+	height: 100%
+    }
+    .nav {            
+        width: 10%;             
+        background: #bfb48f;
+    }
+    .section {
+        width: 90%;
+	background: #f2efe9;
+    }
+    .nav ul {
+        list-style: none; 
+        line-height: 24px;
+        padding: 0px; 
+    }
+    .nav ul li a {
+        color: #252627;
+    }    
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .footer {
+        background: #564e58;            
+        text-align: center;
+        padding: 5px;
+    }
+    th, td {
+	padding: 7px;
+    }
+
+    np::after{
+	content: "";
+	display: table;
+	clear: both;	
+    }
+    npimage {
+	float: left;
+	width: 100px;
+	height: 90px;
+	/*background: #ff0000; */
+	padding: 0px;
+
+    }
+    npdata {
+	float:left;
+	width: 70%;
+	/*background: #00ff00; */
+	padding: 0px;
+    }
+
+
+
